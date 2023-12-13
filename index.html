@@ -30,7 +30,7 @@
                         <li class="menu__item">
                             <a href="#" class="menu__link">Contacts</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-btn">
                             <button class="menu__btn">BUY</button>
                         </li>
                     </ul>
@@ -42,11 +42,11 @@
                         class="title--s">S</span><span class="title--m">M</span><span class="title--ax">AX</span>
                 </h1>
                 <div class="header__content-images">
-                    <!-- <img src="images/airpods-black.png" alt=""> -->
-                    <img src="images/airpods-blue.png" alt="">
-                    <!-- <img src="images/airpods-green.png" alt=""> -->
-                    <!-- <img src="images/airpods-red.png" alt=""> -->
-                    <!-- <img src="images/airpods-white.png" alt=""> -->
+                    <img class="content-item color--black" src="images/airpods-black.png" alt="">
+                    <img class="content-item color--blue content-item__active" src="images/airpods-blue.png" alt="">
+                    <img class="content-item color--green" src="images/airpods-green.png" alt="">
+                    <img class="content-item color--red" src="images/airpods-red.png" alt="">
+                    <img class="content-item color--white" src="images/airpods-white.png" alt="">
                 </div>
             </div>
         </div>
@@ -59,21 +59,21 @@
                 <p class="choose-color__text">The perfect balance between the purityof hi‑fi and the magic of AirPods.
                     The ultimate personal audio experience.</p>
                 <div class="choose-color__list">
-                    <button class="choose-color__btn">
+                    <button class="choose-color__btn" data-button="color--black">
                         <img src="images/btn-black.png" alt="">
                     </button>
-                    <button class="choose-color__btn">
+                    <button class="choose-color__btn" data-button="color--white">
                         <img src="images/btn-white.png" alt="">
                     </button>
-                    <button class="choose-color__btn">
+                    <button class="choose-color__btn" data-button="color--green">
                         <img src="images/btn-green.png" alt="">
                     </button>
-                    <button class="choose-color__btn">
+                    <button class="choose-color__btn" data-button="color--red">
                         <img src="images/btn-red.png" alt="">
                     </button>
-                    <!-- <button class="choose-color__btn">
+                    <button class="choose-color__btn choose-color__btn--active" data-button="color--blue">
                         <img src="images/btn-blue.png" alt="">
-                    </button> -->
+                    </button>
                 </div>
             </div>
         </section>
@@ -100,11 +100,11 @@
                             and
                             isolation.</p>
                     </div>
-                    <img class="" src="images/side_blue.jpg" alt="">
-                    <!-- <img class="" src="images/side_red.jpg" alt="">
-                    <img class="" src="images/side_green.jpg" alt="">
-                    <img class="" src="images/side_white.jpg" alt="">
-                    <img class="" src="images/side_blue.jpg" alt=""> -->
+                    <img class="content-item color--blue content-item__active" src="images/side_blue.jpg" alt="">
+                    <img class="content-item color--red" src="images/side_red.jpg" alt="">
+                    <img class="content-item color--green" src="images/side_green.jpg" alt="">
+                    <img class="content-item color--white" src="images/side_white.jpg" alt="">
+                    <img class="content-item color--black" src="images/side_black.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -119,11 +119,11 @@
                     Max
                     enter a low-power state to save energy.
                 </p>
-                <img src="images/case-blue.jpg" alt="">
-                <!-- <img src="images/case-red.jpg" alt="">
-                <img src="images/case-green.jpg" alt="">
-                <img src="images/case-white.jpg" alt="">
-                <img src="images/case-black.jpg" alt=""> -->
+                <img class="content-item color--blue content-item__active" src="images/case-blue.jpg" alt="">
+                <img class="content-item color--red" src="images/case-red.jpg" alt="">
+                <img class="content-item color--green" src="images/case-green.jpg" alt="">
+                <img class="content-item color--white" src="images/case-white.jpg" alt="">
+                <img class="content-item color--black" src="images/case-black.jpg" alt="">
                 <h2 class="energy__title main__title">
                     Stayin' alive, stayin' alive.
                 </h2>
@@ -191,6 +191,7 @@
             </ul>
         </div>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
